@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friend Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+     <h2>Let's Find Your Match</h2>
+     <hr>
+    <h3>About You</h3>
+    <h4>Name</h4>
+    <input type='text' name='' id='name' class='form-control' required>
+
+    <h4>Link to Photo</h4>
+    <input type='text' name='' id='photo' class='form-control' required>
+    <hr>
+    <h3>Question 1</h3>
+    <h4>You'd rather stay in bed than wake up early to get in a good morning workout.</h4>
+    <select data-placeholder='' class='chosen-select' id='q1'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 2</h3>
+    <h4>A cheap and mediocre meal is better than a pricey and expensive one.</h4>
+    <select data-placeholder='' class='chosen-select' id='q2'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 3</h3>
+    <h4>Marvel over DC.</h4>
+    <select data-placeholder='' class='chosen-select' id='q3'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 4</h3>
+    <h4>Horoscopes are stupid.</h4>
+    <select data-placeholder='' class='chosen-select' id='q4'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 5</h3>
+    <h4>Pineapples belong on pizza.</h4>
+    <select data-placeholder='' class='chosen-select' id='q5'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 6</h3>
+    <h4>Texting multiple messages makes more sense than texting one large paragraph.</h4>
+    <select data-placeholder='' class='chosen-select' id='q6'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 7</h3>
+    <h4>Apple over Android.</h4>
+    <select data-placeholder='' class='chosen-select' id='q7'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 8</h3>
+    <h4>Halloween is the best holiday of the year.</h4>
+    <select data-placeholder='' class='chosen-select' id='q8'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 9</h3>
+    <h4>The only way to eat wings is traditional. Scrap the bone out.</h4>
+    <select data-placeholder='' class='chosen-select' id='q9'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+
+    <h3>Question 10</h3>
+    <h4>Life is not worth living without spicy food.</h4>
+    <select data-placeholder='' class='chosen-select' id='q10'>
+        <option value=''></option>
+        <option value='1'>Strongly Disagree</option>
+        <option value='2'>Disagree</option>
+        <option value='3'>Neutral</option>
+        <option value='4'>Agree</option>
+        <option value='5'>Strongly Agree</option>
+    </select>
+    <br>
+    <br>
+
+    <button type='submit' class='btn btn-primary btn-block' id='submit'>Submit</button>
+
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
