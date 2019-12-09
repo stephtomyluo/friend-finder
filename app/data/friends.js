@@ -94,7 +94,7 @@ let friends = [
             '4',
             '4'
         ]
-    },
-
-
+    }
 ]
+
+module.exports = friends;
