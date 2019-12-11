@@ -170,7 +170,7 @@
           </div>
           <div class="modal-body">
             <h2 id="matchName">Modal body text goes here.</h2>
-            <img id="matchImg" src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
+            <img id="matchImg" src="" alt="" />
           </div>
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
@@ -228,6 +228,9 @@
           };
 
           $.post("/api/friends", userData, function(data) {
+            $('#matchName').text(data.name)
+            $('#matchImg').attr('src', data.photo)
+            
             $('#matchModal').modal('toggle')
           });
         } else {
